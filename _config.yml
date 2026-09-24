@@ -1,0 +1,173 @@
+# ==============================================================================
+# BILINGUAL JEKYLL RESUME THEME - SHERLOCK HOLMES DEMO CONFIGURATION
+# ==============================================================================
+
+# ==============================================================================
+# 1. SITE IDENTITY & LOCALIZATION
+# ==============================================================================
+theme: bilingual-jekyll-resume-theme
+title: "Sherlock Holmes"
+description: "Consulting Detective, 221B Baker Street, London"
+url: "https://example.com"
+baseurl: ""
+timezone: UTC
+
+# ==============================================================================
+# 2. PROFILE PICTURE / AVATAR SETTINGS
+# ==============================================================================
+resume_avatar: true
+avatar_url: "/assets/images/sherlock-holmes.jpg"
+avatar_link: "/"
+avatar_link_target: "_self"
+
+# ==============================================================================
+# 3. CONTACT INFORMATION
+# ==============================================================================
+contact_info:
+  email: "sherlock@example.com"
+  phone: "+44 20 7946 0958"
+
+# ==============================================================================
+# 4. SOCIAL MEDIA LINKS
+# ==============================================================================
+social_links:
+  email: "sherlock@example.com"
+  github: https://github.com/kmutahar/bilingual-jekyll-resume-theme
+
+# ==============================================================================
+# 5. LANGUAGES CONFIGURATION
+# ==============================================================================
+languages:
+  en:
+    data_path: en
+    url: /en/cv/
+    header_intro: true
+    name: "Sherlock Holmes"
+    resume_title: "Consulting Detective"
+    address: "221B Baker Street, London"
+    avatar_alt: "Portrait of Sherlock Holmes"
+    about: >-
+      Consulting detective of Baker Street, specialising in the science of deduction, forensic chemistry, and the resolution of cases that have proved insoluble to the official police.
+  ar:
+    data_path: ar
+    url: /ar/cv/
+    header_intro: true
+    name: "شيرلوك هولمز"
+    resume_title: "محقق استشاري"
+    address: "٢٢١ب شارع بيكر، لندن"
+    avatar_alt: "صورة شيرلوك هولمز"
+    about: >-
+      محقق استشاري من شارع بيكر، متخصص في علم الاستنتاج، والكيمياء الجنائية، وحل القضايا التي استعصت على الشرطة الرسمية.
+  es:
+    data_path: es
+    url: /es/cv/
+    header_intro: true
+    name: "Sherlock Holmes"
+    resume_title: "Detective asesor"
+    address: "221B Baker Street, Londres"
+    avatar_alt: "Retrato de Sherlock Holmes"
+    about: >-
+      Detective asesor de Baker Street, especializado en la ciencia de la deducción, la química forense y la resolución de casos que han resultado insolubles para la policía oficial.
+  fr:
+    data_path: fr
+    url: /fr/cv/
+    header_intro: true
+    name: "Sherlock Holmes"
+    resume_title: "Détective consultant"
+    address: "221B Baker Street, Londres"
+    avatar_alt: "Portrait de Sherlock Holmes"
+    about: >-
+      Détective consultant de Baker Street, spécialisé dans la science de la déduction, la chimie médico-légale et la résolution d'affaires jugées insolubles par la police officielle.
+  de:
+    data_path: de
+    url: /de/cv/
+    header_intro: true
+    name: "Sherlock Holmes"
+    resume_title: "Beratender Detektiv"
+    address: "221B Baker Street, London"
+    avatar_alt: "Porträt von Sherlock Holmes"
+    about: >-
+      Beratender Detektiv der Baker Street, spezialisiert auf die Wissenschaft der Deduktion, forensische Chemie und die Lösung von Fällen, die sich für die offizielle Polizei als unlösbar erwiesen haben.
+  ur:
+    data_path: ur
+    url: /ur/cv/
+    header_intro: true
+    name: "شرلاک ہومز"
+    resume_title: "مشاورتی سراغ رساں"
+    address: "221B بیکر اسٹریٹ، لندن"
+    avatar_alt: "شرلاک ہومز کی تصویر"
+    about: >-
+      بیکر اسٹریٹ کا مشاورتی سراغ رساں، جو علمِ استخراج، فرانزک کیمیا، اور اُن مقدمات کے حل میں مہارت رکھتا ہے جو سرکاری پولیس کے لیے ناقابلِ حل ثابت ہوئے۔
+
+default_lang: en
+
+# ==============================================================================
+# 6. RESUME DISPLAY & BEHAVIOR CONTROLS
+# ==============================================================================
+resume_language_switcher: true
+display_header_contact_info: true
+resume_looking_for_work: true
+enable_summary: true
+enable_live: false
+resume_print_social_links: true
+
+validate_resume: true
+validate_resume_strict: false
+
+# ==============================================================================
+# 7. RESUME SECTIONS TOGGLE & RENDER ORDER
+# ==============================================================================
+resume_section:
+  associations: true
+  certifications: true
+  courses: true
+  education: true
+  experience: true
+  interests: true
+  lang_header: true
+  languages: true
+  links: true
+  projects: true
+  recognitions: true
+  skills: true
+  volunteering: true
+
+resume_section_order:
+  - experience
+  - education
+  - certifications
+  - courses
+  - volunteering
+  - projects
+  - associations
+  - skills
+  - recognitions
+  - languages
+  - interests
+  - links
+
+# ==============================================================================
+# 8. STYLING, FONTS & DARK MODE
+# ==============================================================================
+dark_mode: enabled
+resume_theme: default
+
+# ==============================================================================
+# 9. JEKYLL BUILD SETTINGS & PLUGINS
+# ==============================================================================
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-redirect-from
+
+include:
+  - _redirects
+  - .well-known/
+  - _pages/
+
+exclude:
+  - README.md
+  - Gemfile*
+  - vendor/
+  - node_modules/
