@@ -2,13 +2,18 @@
 
 source "https://rubygems.org"
 
-# When developing alongside the theme locally, use local path; otherwise use published gem.
+# Prefer the parent theme when this is its demo submodule, then a sibling checkout.
+# Resolve checks relative to this Gemfile, regardless of the shell's working directory.
+local_theme_path = ["..", "../bilingual-jekyll-resume-theme"].find do |path|
+  File.file?(File.expand_path("#{path}/bilingual-jekyll-resume-theme.gemspec", __dir__))
+end
+
 # Must be in the :jekyll_plugins group: Jekyll only auto-requires gems in this group
 # (via Bundler.require(:jekyll_plugins)), which is what registers the theme's build-time
-# resume validator and HTTP error page generator.
+# resume validator, page generators, and HTTP error page generator.
 group :jekyll_plugins do
-  if File.directory?("../bilingual-jekyll-resume-theme")
-    gem "bilingual-jekyll-resume-theme", path: "../bilingual-jekyll-resume-theme"
+  if local_theme_path
+    gem "bilingual-jekyll-resume-theme", path: local_theme_path
   else
     gem "bilingual-jekyll-resume-theme", "~> 1.0"
   end

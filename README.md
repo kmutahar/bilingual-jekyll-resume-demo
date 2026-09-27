@@ -19,7 +19,7 @@ This site functions as a standalone consuming Jekyll site using `theme: bilingua
 
 ## Theme Version for This Demo
 
-When this repository is the theme’s `demo/` submodule, build from the **theme root** using its bundle:
+When this repository is the theme’s `demo/` submodule, its Gemfile uses the parent development theme. You can run the local-development commands below from inside `demo/`, or build from the **theme root** using its bundle:
 
 ```bash
 git submodule update --init --recursive
@@ -37,7 +37,13 @@ Open `http://localhost:4000` in your browser.
 
 ### Developing against a local theme checkout
 
-The `Gemfile` automatically prefers a `bilingual-jekyll-resume-theme` checkout at `../bilingual-jekyll-resume-theme` (relative to this repo) over the published gem, so theme changes are picked up immediately by `bundle install` without needing to publish a release. Clone the theme repo as a sibling directory to get this:
+The `Gemfile` checks for the theme's gemspec in this order, relative to the Gemfile:
+
+1. `..` — when this repository is nested inside the theme as `demo/`.
+2. `../bilingual-jekyll-resume-theme` — a sibling theme checkout.
+3. The published gem, when neither local checkout is present.
+
+Run `bundle install` after moving checkouts or changing the Gemfile, then restart Jekyll to load the selected theme. A sibling checkout can use this structure:
 
 ```
 some-folder/
@@ -45,4 +51,4 @@ some-folder/
 └── bilingual-jekyll-resume-demo/   (this repo)
 ```
 
-Because dependency resolution depends on whether that sibling directory exists on a given machine, `Gemfile.lock` is intentionally gitignored here rather than committed — a lockfile generated with the local path present wouldn't reproduce correctly on a machine (or CI runner) without it, and vice versa.
+Because dependency resolution depends on which local checkout exists on a given machine, `Gemfile.lock` is intentionally gitignored here rather than committed — a lockfile generated with a local path present wouldn't reproduce correctly on a machine (or CI runner) without it, and vice versa.
