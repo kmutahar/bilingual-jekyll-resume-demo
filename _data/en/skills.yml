@@ -9,6 +9,8 @@
 
 - skill: "Chemistry &amp; Forensic Analysis"
   active: true
+  level_label: "Expert"
+  keywords: ["Chemistry", "Forensic analysis"]
   description: >-
     Expert in analytical and organic chemistry as applied to criminal investigation, including blood, poison, and trace-residue detection, and the comparative analysis of tobacco ash, ink, and paper.
 

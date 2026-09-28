@@ -13,6 +13,8 @@
 # نمایاں فرانزک مقالہ
 - project: "مختلف اقسام کے تمباکو کی راکھ کے مابین امتیاز پر"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "مصنف"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"

@@ -9,6 +9,8 @@
 
 - skill: "Química &amp; Análisis Forense"
   active: true
+  level_label: "Experto"
+  keywords: ["Química", "Análisis forense"]
   description: >-
     Experto en química analítica y orgánica aplicada a la investigación criminal, incluida la detección de sangre, venenos y residuos, así como el análisis comparativo de cenizas de tabaco, tinta y papel.
 

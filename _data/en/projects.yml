@@ -13,6 +13,8 @@
 # Signature forensic monograph
 - project: "Upon the Distinction Between the Ashes of the Various Tobaccos"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "Author"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"

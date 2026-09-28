@@ -13,6 +13,8 @@
 # Monografía forense insignia
 - project: "Sobre la Distinción entre las Cenizas de los Diversos Tabacos"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "Autor"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"

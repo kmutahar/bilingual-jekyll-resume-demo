@@ -13,6 +13,8 @@
 # Bedeutende forensische Monografie
 - project: "Über die Unterscheidung der Aschen verschiedener Tabaksorten"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "Autor"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"

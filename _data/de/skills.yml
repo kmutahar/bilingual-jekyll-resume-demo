@@ -9,6 +9,8 @@
 
 - skill: "Chemie &amp; Forensische Analyse"
   active: true
+  level_label: "Experte"
+  keywords: ["Chemie", "Forensische Analyse"]
   description: >-
     Experte für analytische und organische Chemie in der Anwendung auf kriminalistische Ermittlungen, einschließlich Nachweis von Blut, Gift und Spurenrückständen sowie der vergleichenden Analyse von Tabakasche, Tinte und Papier.
 

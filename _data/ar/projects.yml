@@ -13,6 +13,8 @@
 # الدراسة الجنائية الأبرز
 - project: "في التمييز بين أرمدة أنواع التبغ المختلفة"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "مؤلف"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"

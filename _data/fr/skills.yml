@@ -9,6 +9,8 @@
 
 - skill: "Chimie &amp; analyse médico-légale"
   active: true
+  level_label: "Expert"
+  keywords: ["Chimie", "Analyse médico-légale"]
   description: >-
     Expert en chimie analytique et organique appliquée à l'investigation criminelle, notamment la détection du sang, des poisons et des traces résiduelles, et l'analyse comparative des cendres de tabac, de l'encre et du papier.
 

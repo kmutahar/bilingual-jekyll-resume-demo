@@ -13,6 +13,8 @@
 # Monographie médico-légale signature
 - project: "De la distinction entre les cendres des divers tabacs"
   active: true
+  startdate: "1887"
+  enddate: "1887"
   role: "Auteur"
   duration: "1887"
   url: "https://example.com/monographs/tobacco-ashes"
