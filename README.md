@@ -2,6 +2,8 @@
 
 Official live showcase and demonstration website for [**bilingual-jekyll-resume-theme**](https://github.com/kmutahar/bilingual-jekyll-resume-theme).
 
+Documentation for the theme, including a step-by-step tutorial, is in the [theme repository's docs](https://github.com/kmutahar/bilingual-jekyll-resume-theme/tree/master/docs).
+
 Featuring Sherlock Holmes' consulting detective resume in 6 languages (English, Arabic, Spanish, French, German, Urdu) with full LTR/RTL support, dark mode toggle, and responsive layouts.
 
 ## Architecture

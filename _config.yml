@@ -184,7 +184,7 @@ exclude:
   - node_modules/
 
 # JSON Resume exports: /<lang>/resume.json and a default-language /resume.json.
-# Details and field mappings: docs/JSON_RESUME_EXPORT.md in the theme repository.
+# Details and field mappings: docs/reference/json-resume-fields.md in the theme repository.
 json_resume:
   enabled: true
   root_export: true
