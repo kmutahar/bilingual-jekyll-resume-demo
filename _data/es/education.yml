@@ -18,6 +18,9 @@
   year: "1872 &ndash; 1876"
   location: "Inglaterra"
   active: true
+  awards:
+    - "Expediente distinguido en química práctica"
+    - "Premio por trabajo original en anatomía"
   summary: >-
     Se concentró en química orgánica, anatomía y la literatura sensacionalista sobre el crimen, en general descuidando el plan de estudios estándar. Pasó dos años en habitaciones de alquiler antes de trasladarse a Londres para iniciar la práctica independiente.
 

@@ -18,6 +18,9 @@
   year: "1872 &ndash; 1876"
   location: "England"
   active: true
+  awards:
+    - "Distinguished record in practical chemistry"
+    - "Prize for original work in anatomy"
   summary: >-
     Concentrated on organic chemistry, anatomy, and the sensational literature of crime, to the general neglect of the standard curriculum. Spent two years in rooms before removing to London to begin independent practice.
 

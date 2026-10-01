@@ -18,6 +18,9 @@
   year: "1872 &ndash; 1876"
   location: "England"
   active: true
+  awards:
+    - "Ausgezeichnete Leistungen in praktischer Chemie"
+    - "Preis für eigenständige Arbeit in Anatomie"
   summary: >-
     Konzentrierte sich auf organische Chemie, Anatomie und die Sensationsliteratur des Verbrechens, unter allgemeiner Vernachlässigung des Standardlehrplans. Verbrachte zwei Jahre in Studentenzimmern, bevor er nach London zog, um die selbstständige Praxis aufzunehmen.
 

@@ -18,6 +18,7 @@
   issuing_organization: "سینٹ بارتھولومیو ہسپتال کی تجربہ گاہیں"
   credential_id: "BART-CHEM-1878"
   issue_date: 1878-06-01
+  expiration: 1898-06-01
 
 # توثیقی حوالے کے ساتھ سند
 - name: "رجسٹرڈ مشاورتی سراغ رساں"

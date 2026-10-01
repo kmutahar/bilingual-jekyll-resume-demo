@@ -18,6 +18,7 @@
   issuing_organization: "Laboratoires de l'hôpital St. Bartholomew"
   credential_id: "BART-CHEM-1878"
   issue_date: 1878-06-01
+  expiration: 1898-06-01
 
 # Certification avec référence de vérification
 - name: "Détective consultant agréé"

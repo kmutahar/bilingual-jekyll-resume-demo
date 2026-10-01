@@ -18,6 +18,9 @@
   year: "1872 &ndash; 1876"
   location: "Angleterre"
   active: true
+  awards:
+    - "Dossier distingué en chimie pratique"
+    - "Prix pour un travail original en anatomie"
   summary: >-
     Concentré sur la chimie organique, l'anatomie et la littérature à sensation sur le crime, au détriment général du programme habituel. A passé deux ans en chambre avant de s'installer à Londres pour débuter une pratique indépendante.
 

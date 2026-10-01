@@ -18,6 +18,7 @@
   issuing_organization: "St. Bartholomew's Hospital Laboratories"
   credential_id: "BART-CHEM-1878"
   issue_date: 1878-06-01
+  expiration: 1898-06-01
 
 # Credential with verification reference
 - name: "Registered Consulting Detective"

@@ -18,6 +18,7 @@
   issuing_organization: "مختبرات مستشفى القديس بارثولوميو"
   credential_id: "BART-CHEM-1878"
   issue_date: 1878-06-01
+  expiration: 1898-06-01
 
 # شهادة مع مرجع تحقق
 - name: "محقق استشاري مسجل"
