@@ -1,0 +1,16 @@
+# References
+# File: _data/es/references.yml
+# Fields: name (required), reference (required), active.
+# Privacy: rendered and exported exactly as written; include only what the referee agreed to publish.
+
+- name: "Dr. John H. Watson, M.D."
+  reference: "Nunca he conocido a un investigador más preciso e intrépido. Sus métodos, aunque poco convencionales, jamás han dejado de revelar la verdad."
+  active: true
+
+- name: "Inspector G. Lestrade, Scotland Yard"
+  reference: "Pese a mis reservas sobre sus modales, los resultados hablan por sí solos: ha resuelto casos que desconcertaron a todo el Yard."
+  active: true
+
+- name: "Sra. Hudson"
+  reference: "Referencia en borrador retenida."
+  active: false

@@ -1,0 +1,23 @@
+# Publications
+# File: _data/ar/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "في تمييز رماد التبغ"
+  publisher: "مجلة ستراند"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "دراسة تفصيلية تصنّف 140 نوعًا من رماد التبغ وقيمتها في تحديد هوية المجرمين."
+  active: true
+
+- name: "الدليل العملي لتربية النحل"
+  publisher: "دار بيكر ستريت"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "ملاحظات حول تربية النحل مع مشاهدات من سهول ساسكس."
+  active: true
+
+- name: "ملاحظات حول أعمال التشفير المبكرة"
+  publisher: "تداول خاص"
+  release_date: 1887-06
+  summary: "لم يُنشر بعد."
+  active: false

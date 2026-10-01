@@ -1,0 +1,16 @@
+# References
+# File: _data/ur/references.yml
+# Fields: name (required), reference (required), active.
+# Privacy: rendered and exported exactly as written; include only what the referee agreed to publish.
+
+- name: "ڈاکٹر جان ایچ واٹسن"
+  reference: "میں نے اس سے زیادہ درست اور بے خوف تفتیش کار کبھی نہیں دیکھا۔ اس کے طریقے غیر روایتی سہی، مگر سچائی تک پہنچنے میں کبھی ناکام نہیں ہوئے۔"
+  active: true
+
+- name: "انسپکٹر جی۔ لیسٹریڈ، اسکاٹ لینڈ یارڈ"
+  reference: "اس کے انداز پر میرے تحفظات جو بھی ہوں، نتائج خود بولتے ہیں: اس نے وہ مقدمات حل کیے جن میں پورا یارڈ ناکام رہا۔"
+  active: true
+
+- name: "مسز ہڈسن"
+  reference: "مسودہ حوالہ روکا گیا۔"
+  active: false

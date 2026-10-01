@@ -1,0 +1,23 @@
+# Publications
+# File: _data/de/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "Über die Unterscheidung von Tabakasche"
+  publisher: "The Strand Magazine"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "Eine Monographie, die 140 Tabakascheformen und ihren Wert für die Identifizierung von Straftätern katalogisiert."
+  active: true
+
+- name: "Praktisches Handbuch der Bienenzucht"
+  publisher: "Baker Street Press"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "Beobachtungen zur Imkerei mit Anmerkungen zu den Sussex Downs."
+  active: true
+
+- name: "Notizen zu frühen Chiffrierarbeiten"
+  publisher: "Privatdruck"
+  release_date: 1887-06
+  summary: "Noch nicht veröffentlicht."
+  active: false

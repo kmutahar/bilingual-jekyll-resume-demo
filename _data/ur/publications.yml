@@ -1,0 +1,23 @@
+# Publications
+# File: _data/ur/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "تمباکو کی راکھ کی شناخت پر"
+  publisher: "دی اسٹرینڈ میگزین"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "تمباکو کی راکھ کی 140 اقسام اور مجرموں کی شناخت میں ان کی اہمیت پر ایک تحقیقی مقالہ۔"
+  active: true
+
+- name: "شہد کی مکھیوں کی پرورش کا عملی کتابچہ"
+  publisher: "بیکر اسٹریٹ پریس"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "شہد کی مکھیوں کی پرورش پر مشاہدات، سسیکس ڈاؤنز کے نوٹس کے ساتھ۔"
+  active: true
+
+- name: "ابتدائی خفیہ نویسی پر نوٹس"
+  publisher: "نجی اشاعت"
+  release_date: 1887-06
+  summary: "ابھی شائع نہیں ہوا۔"
+  active: false

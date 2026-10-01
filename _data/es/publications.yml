@@ -1,0 +1,23 @@
+# Publications
+# File: _data/es/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "Sobre la distinción de las cenizas de tabaco"
+  publisher: "The Strand Magazine"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "Monografía que cataloga 140 variedades de ceniza de tabaco y su valor en la identificación criminal."
+  active: true
+
+- name: "Manual práctico de apicultura"
+  publisher: "Baker Street Press"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "Observaciones sobre apicultura, con notas sobre los Sussex Downs."
+  active: true
+
+- name: "Notas sobre los primeros trabajos de criptografía"
+  publisher: "Circulación privada"
+  release_date: 1887-06
+  summary: "Aún sin publicar."
+  active: false

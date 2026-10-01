@@ -1,0 +1,23 @@
+# Publications
+# File: _data/fr/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "De la distinction des cendres de tabac"
+  publisher: "The Strand Magazine"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "Monographie répertoriant 140 variétés de cendres de tabac et leur intérêt pour l'identification criminelle."
+  active: true
+
+- name: "Manuel pratique d'apiculture"
+  publisher: "Baker Street Press"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "Observations sur l'apiculture, avec des notes sur les Sussex Downs."
+  active: true
+
+- name: "Notes sur les premiers travaux de chiffrement"
+  publisher: "Diffusion privée"
+  release_date: 1887-06
+  summary: "Pas encore publié."
+  active: false

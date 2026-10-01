@@ -1,0 +1,23 @@
+# Publications
+# File: _data/en/publications.yml
+# Fields: name (required), publisher, release_date (YYYY, YYYY-MM or YYYY-MM-DD), url (http/https), summary, active.
+
+- name: "On the Distinction of Tobacco Ashes"
+  publisher: "The Strand Magazine"
+  release_date: 1889-03-01
+  url: "https://example.com/monographs/tobacco-ashes"
+  summary: "A monograph cataloguing 140 varieties of tobacco ash and their value in criminal identification."
+  active: true
+
+- name: "Practical Handbook of Bee Culture"
+  publisher: "Baker Street Press"
+  release_date: 1912
+  url: "https://example.com/monographs/bee-culture"
+  summary: "Observations on apiculture, with notes on the Sussex Downs."
+  active: true
+
+- name: "Notes on Early Cipher Work"
+  publisher: "Private Circulation"
+  release_date: 1887-06
+  summary: "Not yet released."
+  active: false

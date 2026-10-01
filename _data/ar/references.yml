@@ -1,0 +1,16 @@
+# References
+# File: _data/ar/references.yml
+# Fields: name (required), reference (required), active.
+# Privacy: rendered and exported exactly as written; include only what the referee agreed to publish.
+
+- name: "الدكتور جون هـ. واطسون"
+  reference: "لم أعرف محققًا أدق منه ولا أجرأ. أساليبه غير تقليدية، لكنها لم تخفق قط في الوصول إلى الحقيقة."
+  active: true
+
+- name: "المفتش ج. ليستريد، سكوتلاند يارد"
+  reference: "مهما كانت تحفظاتي على أسلوبه، فالنتائج تتحدث بوضوح: لقد حلّ قضايا أعجزت الشرطة بأكملها."
+  active: true
+
+- name: "السيدة هدسون"
+  reference: "مرجع مسوّدة محجوب."
+  active: false

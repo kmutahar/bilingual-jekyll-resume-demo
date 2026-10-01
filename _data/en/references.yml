@@ -1,0 +1,16 @@
+# References
+# File: _data/en/references.yml
+# Fields: name (required), reference (required), active.
+# Privacy: rendered and exported exactly as written; include only what the referee agreed to publish.
+
+- name: "Dr. John H. Watson, M.D."
+  reference: "I have never known a more precise and fearless investigator. His methods, though unconventional, have never once failed to deliver the truth."
+  active: true
+
+- name: "Inspector G. Lestrade, Scotland Yard"
+  reference: "Whatever my reservations about his manner, the results speak plainly: he has solved cases that stumped the entire Yard."
+  active: true
+
+- name: "Mrs. Hudson"
+  reference: "Draft reference withheld."
+  active: false
