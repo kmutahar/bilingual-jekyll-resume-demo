@@ -1,11 +1,11 @@
 # ==============================================================================
-# BILINGUAL JEKYLL RESUME THEME - SHERLOCK HOLMES DEMO CONFIGURATION
+# MULTILINGUAL JEKYLL RESUME THEME - SHERLOCK HOLMES DEMO CONFIGURATION
 # ==============================================================================
 
 # ==============================================================================
 # 1. SITE IDENTITY & LOCALIZATION
 # ==============================================================================
-theme: bilingual-jekyll-resume-theme
+theme: jekyll-theme-resume
 title: "Sherlock Holmes"
 description: "Consulting Detective, 221B Baker Street, London"
 url: "https://kmutahar.github.io/bilingual-jekyll-resume-demo"
@@ -32,7 +32,7 @@ contact_info:
 # ==============================================================================
 social_links:
   email: "sherlock@example.com"
-  github: https://github.com/kmutahar/bilingual-jekyll-resume-theme
+  github: https://github.com/kmutahar/jekyll-theme-resume
 
 # ==============================================================================
 # 5. LANGUAGES CONFIGURATION
@@ -170,7 +170,7 @@ plugins:
   # of Bundler group, guarding against a Gemfile that forgets to put the theme gem in
   # the `:jekyll_plugins` group — without that, the build-time resume validator and
   # page generators silently never run.
-  - bilingual-jekyll-resume-theme
+  - jekyll-theme-resume
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
