@@ -33,6 +33,7 @@ contact_info:
 social_links:
   email: "sherlock@example.com"
   github: https://github.com/kmutahar/jekyll-theme-resume
+  linkedin: https://www.linkedin.com/in/sherlock-holmes/
 
 # ==============================================================================
 # 5. LANGUAGES CONFIGURATION
@@ -132,6 +133,7 @@ resume_section:
   interests: true
   lang_header: true
   languages: true
+  linkedin_header: true
   links: true
   publications: true
   projects: true
